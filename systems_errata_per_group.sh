@@ -18,7 +18,6 @@ function print_by_system_group()
 {
     SGROUP="$1"
 
-    declare -A patches_needed
     REPORT_FILENAME="system_group_"${SGROUP}"_$(date +%s).csv"
 
     echo -n "* Generando reporte para el grupo "${SGROUP}"... "
