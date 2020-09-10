@@ -32,8 +32,8 @@ function print_by_system_group()
         echo $server_name,$(obtain_patches_needed ${server_id}) >> "$REPORT_FILENAME"
     done
 
-   echo "[HECHO]"
-   echo "  * Archivo del reporte: ${REPORT_FILENAME}"
+    echo "[HECHO]"
+    echo "  * Archivo del reporte: ${REPORT_FILENAME}"
 }
 
 function obtain_patches_needed()
